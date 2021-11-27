@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import nltk
 nltk.download('punkt')
 
-st.title('Fake News Identification using web scraping')
+st.title('Fake News Identification using Web scraping & NLP')
 inp=st.text_input("Enter News: ")
 time=st.selectbox('Select Time:',('Last Hour', 'Last Day', 'Last Month', 'Anytime'))
 btn=st.button('Check')
