@@ -1,0 +1,5 @@
+streamlit
+nltk
+newspapper3k
+sklearn
+google
