@@ -7,9 +7,10 @@ nltk.download('punkt')
 
 st.title('Fake News Identification using Web scraping & NLP')
 inp=st.text_input("Enter News: ")
-time=st.selectbox('Select Time:',('Last Hour', 'Last Day', 'Last Month', 'Anytime'))
+time=st.selectbox('Select Time:',('Last Hour', 'Last Day', 'Last Week', 'Last Month', 'Anytime'))
 btn=st.button('Check')
-ts={'Last Hour':"qdr:h",'Last Day':"qdr:d",'Last Month':"qdr:m",'Anytime':"qdr:none"}
+ts={'Last Hour':"qdr:h",'Last Day':"qdr:d",'Last Week':'qdr:w','Last Month':"qdr:m",'Anytime':"qdr:none"}
+
 if btn:
     query = "NEWS "+inp
 
