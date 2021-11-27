@@ -1,5 +1,5 @@
 streamlit
 nltk
-newspapper3k
+newspaper3k
 sklearn
 google
