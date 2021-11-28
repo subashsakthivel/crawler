@@ -18,7 +18,7 @@ if btn:
     max_b=0
     url='none'
     link='none'
-    for url in search(query, num=15, tbs=ts[time], start=1, stop= 15, pause=3): 
+    for url in search(query, num=15, tbs=ts[time], start=1, stop= 15, pause=0): 
     #tbs (str) – Time limits (i.e “qdr:h” => last hour, “qdr:d” => last 24 hours, “qdr:m” => last month)
         #print(url)
         
